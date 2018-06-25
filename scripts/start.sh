@@ -1,7 +1,7 @@
 #!/bin/bash
 
 npm install
-npm start sweetrpg-data-api
+npm run start
 
 # start auth server
 # start nginx proxy
