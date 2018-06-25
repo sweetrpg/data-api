@@ -1,7 +1,7 @@
 {
     "name": "sweetrpg-data-api",
     "scripts": {
-        "start": "postgraphile --plugins '' -c 'postgres://sweetrpg@localhost/sweetrpg' -p 8967 -j -b"
+        "start": "postgraphile -c 'postgres://sweetrpg@localhost/sweetrpg' -p 8967 -j -b"
     },
     "repository": {
         "type": "git",
