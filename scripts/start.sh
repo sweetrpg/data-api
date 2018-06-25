@@ -1,6 +1,7 @@
 #!/bin/bash
 
 npm install
-postgraphile -c "postgres://sweetrpg@localhost/sweetrpg" -p 8967
+npm start sweetrpg-data-api
+
 # start auth server
 # start nginx proxy

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-psql -h localhost -u sweetrpg sql/game-systems.sql
+cat sql/game-systems.sql | psql -h localhost -U sweetrpg sweetrpg
